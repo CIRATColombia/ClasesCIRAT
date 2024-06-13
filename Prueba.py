@@ -1,10 +1,15 @@
 import random
-# Muy bien, programaciíon excelente
-x = random.randint(9,30)
-y = random.randint(10,50)
 
-z = x+y
+amount = 0
+x = random.randint(1,100)
 
-print(z)
+for i in range(x):
+    if x%(i+1) == 0:
+        amount+=1
 
-# Nuevo ejercicio, un programa que genere un número aleatorio y lo clasifique como primo o no primo 
+if amount == 2:
+    print("es primo")
+else:
+    print("no es primo")
+
+print(x)
