@@ -1,0 +1,2 @@
+vamos a hacer una propuesta de proyecto para Python
+haremos un juego de plataformas como mario
