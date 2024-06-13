@@ -3,7 +3,7 @@ import random
 amount = 0
 x = random.randint(1,100)
 
-for i in range(x):
+for i in range(1,x):
     if x%(i+1) == 0:
         amount+=1
 
